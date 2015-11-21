@@ -15,7 +15,7 @@ public class QEncoder {
 		IAI[i] = IAI[i] + 1;
 	}
 	for(int i = 0; i < IAC.length; i++){
-		AnotherOne[i] = Integer.toBinaryString(IAI[i]);
+		AnotherOne[i] = Integer.toHexString(IAI[i]);
 	}
 	for(int i = 0; i < AnotherOne.length; i++){
 		System.out.print(AnotherOne[i] + " ");
