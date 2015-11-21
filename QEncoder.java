@@ -12,7 +12,7 @@ public class QEncoder {
 		IAI[i] = IAC[i];
 	}
 	for(int i = 0; i < IAC.length; i++){
-		IAI[i] = ((IAI[i] * 2) / 3) + 1;
+		IAI[i] = ((IAI[i] * 3) / 2) + 1;
 	}
 	for(int i = 0; i < IAC.length; i++){
 		AnotherOne[i] = Integer.toHexString(IAI[i]);
