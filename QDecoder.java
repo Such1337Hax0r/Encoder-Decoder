@@ -12,7 +12,7 @@ public class QDecoder {
 			if(J.contains(" ")){
 				NS = J.split(" ");
 				for(int X = 0; X < NS.length; X++){
-					System.out.print(Character.toChars(Integer.parseInt(NS[X], 2) -1));
+					System.out.print(Character.toChars(Integer.parseInt(NS[X], 16) -1));
 				}
 				
 				
